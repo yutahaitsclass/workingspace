@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*
+	Theme Name: mytheme-camp
+	Author: Yuta Yamadera
+	Version: 3.0
+
+*/
+
+@media screen and (min-width:0px) {
+  .header-PC {
+    display: none;
+  }
+
+  .header-phone {
+    display: block;
+  }
+
+  header .header-content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header .header-content .header-content_element {
+    flex-basis: 33%;
+    text-align: center;
+  }
+
+  header .header-content .header-content_element img {
+    width: 60px;
+  }
+
+  header .header-content .header-content_element .reservation-btn {
+    background-color: #E9A326;
+    text-align: center;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 12px;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  header .header-content .header-content_element .reservation-btn a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+  }
+
+  header .header-content .header-content_element nav ul li img {
+    width: 20px;
+    margin-right: 10px;
+
+  }
+}
+
+@media screen and (min-width:700px) {
+  /*300px以上で適用する内容*/
+
+  .header-phone {
+    display: none
+  }
+
+  .header-PC {
+    display: block;
+  }
+
+  .header-PC .PC-content {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .header-PC .PC-content .PC-content_logo {
+    flex-basis: 20%;
+    padding: 30px;
+  }
+
+  .header-PC .PC-content .PC-content_logo img {
+    width: 220px;
+
+  }
+
+  .header-PC .PC-content_menu ul {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+  }
+
+  .header-PC .PC-content_menu ul li {
+    padding: 30px;
+  }
+
+  .header-PC .PC-content_menu img {
+    width: 30px;
+
+  }
+
+  .header-PC .PC-content_btn {
+    flex-basis: 20%;
+    padding: 30px;
+  }
+
+  .header-PC .PC-content_btn .reservation-btn {
+    background-color: #E9A326;
+    text-align: center;
+    margin: 10px auto;
+    padding: 8px;
+
+    width: 150px;
+    border-radius: 10px;
+
+
+  }
+
+  .header-PC .PC-content_btn .reservation-btn a {
+    color: white;
+  }
+
+
+}

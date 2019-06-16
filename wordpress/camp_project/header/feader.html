@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="header-phone">
+                <div class="header-content">
+                    <div class="header-content_element">
+                        <div id="nav_toggle">
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#"><img src="menu1.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu2.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu3.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu4.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu5.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu6.png" alt="">menu</a></li>
+                                <li><a href="#"><img src="menu7.png" alt="">menu</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="header-content_element">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="header-content_element">
+                        <div class="reservation-btn"><a href="https://www.nap-camp.com/yamanashi/11247/">予約はこちら</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header-PC">
+                <div class="PC-wrapper">
+                    <div class="PC-content">
+                        <div class="PC-content_logo">
+                            <img src="logo-PC.png" alt="">
+                        </div>
+                        <div class="PC-content_menu">
+                            <ul>
+                                <li><a href="#"><img src="menu1.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu2.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu3.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu4.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu5.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu6.png" alt=""><p>menu</p></a></li>
+                                <li><a href="#"><img src="menu7.png" alt=""><p>menu</p></a></li>
+                            </ul>
+                        </div>
+                        <div class="PC-content_btn">
+                            <div class="reservation-btn"><a href="https://www.nap-camp.com/yamanashi/11247/">予約はこちら</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <script src="jquery.js"></script>
+        <script>
+            $(function () {
+                $('#nav_toggle').click(function () {
+                    $("header").toggleClass('open');
+                    $("nav").fadeToggle(500);
+                });
+
+            });
+        </script>
+    </body>
+
+</html>
