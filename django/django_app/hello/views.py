@@ -17,6 +17,7 @@ def index(request):
         "title": "hello/index",
         "msg": "messgae",
         # "goto": "next",
+        
     }
 
     return render(request,"hello/index.html",params)
