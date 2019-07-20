@@ -27,6 +27,6 @@ class Levenshtein:
 
 if __name__ == '__main__':
     str1 = 'coffee'
-    str2 = 'cafe'
+    str2 = 'caffee'
     leven = Levenshtein(str1,str2)
     print(leven.dist)
